@@ -6,7 +6,7 @@ module.exports = {
     entry: './index.js', // 진입점(entry point) 설정
     output: {
         filename: 'bundle.js', // 빌드된 파일 이름
-        path: path.resolve(__dirname, 'dist'), // 빌드 결과물이 저장될 경로
+        path: path.resolve(__dirname, 'docs'), // 빌드 결과물이 저장될 경로
     },
     resolve: {
         alias: {
